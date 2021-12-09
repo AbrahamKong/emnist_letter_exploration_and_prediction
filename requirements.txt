@@ -6,4 +6,4 @@ streamlit_drawable_canvas==0.8.0
 tensorflow-cpu==2.7.0
 wheel==0.37.0
 setuptools==57.4.0
-opencv-python-headless==4.3.0.38
+opencv-python-headless<4.3
