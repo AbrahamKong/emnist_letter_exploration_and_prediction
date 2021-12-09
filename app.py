@@ -12,7 +12,7 @@ import plotly.express as px
 @st.cache(allow_output_mutation = True)
 def load_models():
   # Load in the pre-trained model
-  model_file_path = '/content/emnist_letter_exploration_and_prediction/models/model_conv_v03.h5'
+  model_file_path = '/models/model_conv_v03.h5'
   model = tf.keras.models.load_model(model_file_path)
   return model
 
